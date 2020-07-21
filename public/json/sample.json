@@ -1,0 +1,523 @@
+{
+   "id":0,
+   "mirFileName":"AEJNLGAL.MIR",
+   "header":{
+      "headerId":"T5",
+      "transmittingSystem":"1G",
+      "accountingCode":"7733",
+      "mirTypeIndicator":"92",
+      "totalRecordSize":"03095",
+      "mirSequenceNumber":"03955",
+      "mirCreationDateTime":"19APR201200 ",
+      "issuingAirlineData":"BA125BRITISH AIRWAYS         ",
+      "firstTravelDate":"03MAY20",
+      "gtidsFollow":"B01529E6CCCA",
+      "bookingAgencyAccountCode":"8XT4",
+      "issuingAgencyAccountCode":"8XT4",
+      "agencyAccountNumber":"86202874 ",
+      "recordLocator":"HSKNX0",
+      "recordLocatorOwningAirline":"      ",
+      "otherCrsCode":"  ",
+      "autoManualIndicator":" ",
+      "bookingAgentSign":"8XT4WS",
+      "serviceBureauIndicator":"N",
+      "issuingAgentData":"PTAG",
+      "bookingFileCreationDate":"13APR20",
+      "elapsedBookingFileHandlingTime":"006",
+      "dateLastChangeToBooking":"19APR20",
+      "numberOfChangesToBookingFile":"009",
+      "currencyPartyFare":"AED",
+      "partyFare":"000000004740",
+      "numberOfDecimalsInCurrency":"0",
+      "currencyTaxesAndComm":"AED",
+      "firstTaxAmount":"00000000",
+      "firstTaxCode":"  ",
+      "secondTaxAmount":"00000000",
+      "secondTaxCode":"  ",
+      "thirdTaxAmount":"00000000",
+      "thirdTaxCode":"  ",
+      "fourthTaxAmount":"00000000",
+      "fourthTaxCode":"  ",
+      "fifthTaxAmount":"00000000",
+      "fifthTaxCode":"  ",
+      "paxCommData":"000000000000",
+      "tourCode":"               ",
+      "indicatorBytes":"NYNYN5YNYAYH NNNX   AE ",
+      "dualMirIdentifier":"  ",
+      "senderTargetIndicator":" ",
+      "pseudoCityCode":"    ",
+      "dualMirSeqNumber":"     ",
+      "dualMirGtid":"      ",
+      "stpIdentifier":"  ",
+      "hostPseudoCityCode":"    ",
+      "homePseudoCityCode":"    ",
+      "itemCount":"000000001001002000002001001001002001047000001000"
+   },
+   "passengersData":[
+      {
+         "passengerSerial":1,
+         "sectionLabel":"A02",
+         "passengerName":"MACMILLAN/MALCOLMMR              ",
+         "transactionNumber":"11047665004",
+         "ticketAndInvoiceNumbers":"0384672903901000001654",
+         "passengerIdentificationCodeDescription":"ADT   ",
+         "associatedFareItemNumber":"01",
+         "associatedExchangeItemNumber":"01",
+         "multipleFiledFaresIndicator":"N",
+         "nameFieldRemarks":null,
+         "passengerTitle":null,
+         "passengerAge":null,
+         "passengerGender":null,
+         "passengerSmokingPreference":null,
+         "passengerCitizenshipCountryCode":null,
+         "passengerPassportNumber":null,
+         "passengerPassportExpirationDate":null,
+         "stockControlData":null,
+         "fareQuoteStatusCode":null,
+         "passengerExpandedName":null,
+         "pricingModifier":null,
+         "purchaseTicketLastDate":null,
+         "category35Indicator":"N",
+         "ticketIssueDate":"19APR20",
+         "frequentFlyers":[
+            {
+               "frequentFlyerSerial":1,
+               "sectionLabel":"A03",
+               "frequentFlyerPassengerName":"MACMILLAN/MALCOLMMR  ",
+               "frequentFlyerCarrierCode":"BA",
+               "frequentFlyerNumber":"            27249884",
+               "crossAccrualIndicator":"Y",
+               "crossAccrualCarrierList":"QR                            "
+            }
+         ],
+         "fareValues":[
+            {
+               "fareSerial":1,
+               "sectionLabel":"A07",
+               "fareSectionIndicator":"01",
+               "baseFareCurrencyCode":"USD",
+               "baseFareAmount":"     1289.00",
+               "totalAmountCurrencyCode":"AED",
+               "totalAmount":"        4740",
+               "equivalentAmountCurrencyCode":"AED",
+               "equivalentAmount":"        4740",
+               "netRemitAmount":null,
+               "taxesCurrencyCode":null,
+               "tax1Amount":null,
+               "tax1Code":null,
+               "tax2Amount":null,
+               "tax2Code":null,
+               "tax3Amount":null,
+               "tax3Code":null,
+               "tax4Amount":null,
+               "tax4Code":null,
+               "tax5Amount":null,
+               "tax5Code":null,
+               "xtTaxDetails":null
+            }
+         ],
+         "fareBases":[
+            {
+               "fareBasisSerial":1,
+               "sectionLabel":"A08",
+               "fareSectionIndicator":"01",
+               "itineraryIndexNumber":"01",
+               "fareBasisCode":"YNNF80S0",
+               "segmentValue":"00000000",
+               "notValidBeforeDate":"       ",
+               "notValidAfterDate":"       ",
+               "segmentTicketDesignator":"      ",
+               "completeFareBasisCode":"YNNF80S0       ",
+               "endorsement":"NIL EXCH CANCEL QR 449                                      ",
+               "baggageAllowance":"1PC",
+               "fullEndorsement":null
+            },
+            {
+               "fareBasisSerial":2,
+               "sectionLabel":"A08",
+               "fareSectionIndicator":"01",
+               "itineraryIndexNumber":"02",
+               "fareBasisCode":"YNNF80S0",
+               "segmentValue":"00000000",
+               "notValidBeforeDate":"       ",
+               "notValidAfterDate":"       ",
+               "segmentTicketDesignator":"      ",
+               "completeFareBasisCode":"YNNF80S0       ",
+               "endorsement":"NIL EXCH CANCEL QR 449                                      ",
+               "baggageAllowance":"1PC",
+               "fullEndorsement":null
+            }
+         ],
+         "fareConstructions":[
+            {
+               "fareConstructionSerial":1,
+               "sectionLabel":"A09",
+               "fareSectionIndicator":"01",
+               "type":"0",
+               "fareConstructionDetail":"BSR QR X/DOH BA LON Q BSRLON14.00 1275.00NUC1289.00END ROE1.0 XT PD40G4 PD90IQ PD20PZ"
+            }
+         ]
+      }
+   ],
+   "airlinesData":[
+      {
+         "airlineDataSerial":1,
+         "sectionLabel":"A04",
+         "itineraryIndexNumber":"01",
+         "airlineCode":"QR",
+         "airlineNumber":"157",
+         "airlineName":"QATAR AIRWAY",
+         "flightNumber":" 449",
+         "bookedClass":"Y ",
+         "statusCode":"HK",
+         "departureDate":"03MAY",
+         "departureTime":"1055 ",
+         "arrivalTime":"1220 ",
+         "nextDayArrivalIndicator":"2",
+         "originCityInformation":"BSRBASRAH       ",
+         "destinationCityInformation":"DOHDOHA         ",
+         "domesticInternationalIndicator":"I",
+         "seatIndicator":"N",
+         "mealCodes":"M   ",
+         "stopoverIndicator":"O",
+         "numberOfStops":"0",
+         "baggageAllowance":"   ",
+         "aircraftType":"320 ",
+         "departureTerminal":"   ",
+         "nauticalMiles":"00434",
+         "flightCouponIndicator":"F",
+         "segmentIdentifier":" ",
+         "changeOfGaugeData":null,
+         "groupControlRecordLocator":null,
+         "affiliatedCarrierName":null,
+         "frequentFlyerMiles":null,
+         "ticketedIndicator":"Y",
+         "totalJourneyTime":"01.25",
+         "airlineNameLong":"QATAR AIRWAYS           ",
+         "affiliatedCarrierNameLong":null,
+         "departureDateLong":"03MAY20"
+      },
+      {
+         "airlineDataSerial":2,
+         "sectionLabel":"A04",
+         "itineraryIndexNumber":"02",
+         "airlineCode":"BA",
+         "airlineNumber":"125",
+         "airlineName":"BRITISH AIRW",
+         "flightNumber":"7003",
+         "bookedClass":"Y ",
+         "statusCode":"HK",
+         "departureDate":"04MAY",
+         "departureTime":"0715 ",
+         "arrivalTime":"1235 ",
+         "nextDayArrivalIndicator":"2",
+         "originCityInformation":"DOHDOHA         ",
+         "destinationCityInformation":"LHRLONDON/HEATHR",
+         "domesticInternationalIndicator":"I",
+         "seatIndicator":"N",
+         "mealCodes":"M   ",
+         "stopoverIndicator":"O",
+         "numberOfStops":"0",
+         "baggageAllowance":"   ",
+         "aircraftType":"351 ",
+         "departureTerminal":"   ",
+         "nauticalMiles":"03259",
+         "flightCouponIndicator":"F",
+         "segmentIdentifier":" ",
+         "changeOfGaugeData":null,
+         "groupControlRecordLocator":null,
+         "affiliatedCarrierName":"QATAR AIRWAY",
+         "frequentFlyerMiles":null,
+         "ticketedIndicator":"Y",
+         "totalJourneyTime":"07.20",
+         "airlineNameLong":"BRITISH AIRWAYS         ",
+         "affiliatedCarrierNameLong":"QATAR AIRWAYS                           ",
+         "departureDateLong":"04MAY20"
+      }
+   ],
+   "otherAirSegments":[
+
+   ],
+   "formsOfPayment":[
+      {
+         "formOfPaymentSerial":1,
+         "sectionLabel":"A11",
+         "type":"EX",
+         "collectedOrRefundedAmount":"           0",
+         "refundIndicator":"N",
+         "creditCardCode":"  ",
+         "creditCardNumber":"                    ",
+         "creditCardExpirationDate":"    ",
+         "creditCardApprovalCode":"        ",
+         "paymentPlanOptions":"   ",
+         "addressVerificationIndicator":null,
+         "checkVerificationIndicator":null,
+         "passengerNumber":"01",
+         "freeTextData":null,
+         "customerFileReference":null,
+         "creditCardCustomerOrderNumber":null
+      }
+   ],
+   "phones":[
+      {
+         "phoneSerial":1,
+         "sectionLabel":"A12",
+         "cityCode":"SHJ",
+         "locationType":"T ",
+         "freeformPhoneData":"*065074444 COZMO TRAVEL/PAX 44-7888921743"
+      },
+      {
+         "phoneSerial":2,
+         "sectionLabel":"A12",
+         "cityCode":"MCT",
+         "locationType":"M ",
+         "freeformPhoneData":"*00971559420642"
+      }
+   ],
+   "addresses":[
+      {
+         "addressSerial":1,
+         "sectionLabel":"A13",
+         "addressType":"W-",
+         "freeformAddressData":"IRAQ*IRAQ*IRAQ IRAQ*GB *"
+      }
+   ],
+   "ticketRemarks":[
+      {
+         "remarkSerial":1,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-PRC108430"
+      },
+      {
+         "remarkSerial":2,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-PRNMMS FOR O&G SYSTEMS(CN102357)."
+      },
+      {
+         "remarkSerial":3,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-PRTCON-PLLCIQ-OEO"
+      },
+      {
+         "remarkSerial":4,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-APE1HAMZA.QAYUM//PETROFAC.COM"
+      },
+      {
+         "remarkSerial":5,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-APE2STEVE.WEBBER//PETROFAC.COM"
+      },
+      {
+         "remarkSerial":6,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-DES19"
+      },
+      {
+         "remarkSerial":7,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-LEMPETROFAC UAE LLC IRAQ - PFMI."
+      },
+      {
+         "remarkSerial":8,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-RRB0"
+      },
+      {
+         "remarkSerial":9,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-HOCLHR"
+      },
+      {
+         "remarkSerial":10,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-SLDOPERATIONS MANAGEMENT MIDDLE EAST"
+      },
+      {
+         "remarkSerial":11,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-BLCSITE"
+      },
+      {
+         "remarkSerial":12,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-CLCST - RUMAILA - PFMI - IRAQ"
+      },
+      {
+         "remarkSerial":13,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-OUNPETROFAC UAE LLC IRAQ - PFMI"
+      },
+      {
+         "remarkSerial":14,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-CCTEPS"
+      },
+      {
+         "remarkSerial":15,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-TSK4300014"
+      },
+      {
+         "remarkSerial":16,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-EPTREGULAR EMPLOYEE"
+      },
+      {
+         "remarkSerial":17,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-APRHAMZA QAYUM"
+      },
+      {
+         "remarkSerial":18,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-EMP134431"
+      },
+      {
+         "remarkSerial":19,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-DEPMAINTENANCE"
+      },
+      {
+         "remarkSerial":20,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-LOCIRAQ"
+      },
+      {
+         "remarkSerial":21,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-DSGTURNAROUND SITE SUPERVISOR"
+      },
+      {
+         "remarkSerial":22,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-APR2PRAVEEN KUMAR NARAYAN"
+      },
+      {
+         "remarkSerial":23,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-RTYONLINE"
+      },
+      {
+         "remarkSerial":24,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-CUSTSCTPETR24"
+      },
+      {
+         "remarkSerial":25,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-BEARAJESH.SHETTY//PETROFAC.COM"
+      },
+      {
+         "remarkSerial":26,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-SETSHETTY RAJESH"
+      },
+      {
+         "remarkSerial":27,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-TAPLHR"
+      },
+      {
+         "remarkSerial":28,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-TEMLMALCOLM.MACMILLAN//PETROFAC.COM"
+      },
+      {
+         "remarkSerial":29,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-LOIBA6349 BSR-DOH?BA7009 DOH-LHR"
+      },
+      {
+         "remarkSerial":30,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-SECQAED5900.00"
+      },
+      {
+         "remarkSerial":31,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-CATAED5340"
+      },
+      {
+         "remarkSerial":32,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-LLF"
+      },
+      {
+         "remarkSerial":33,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-CEIBA6349 BSR-DOH?BA7009 DOH-LHR"
+      },
+      {
+         "remarkSerial":34,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-THIQAED5900.00"
+      },
+      {
+         "remarkSerial":35,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-TTPLNR"
+      },
+      {
+         "remarkSerial":36,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-COMINSIDE POLICY"
+      },
+      {
+         "remarkSerial":37,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-FRCRF"
+      },
+      {
+         "remarkSerial":38,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-TRCLF"
+      },
+      {
+         "remarkSerial":39,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-TVALAED5340.00"
+      },
+      {
+         "remarkSerial":40,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-HFAAED5900.00"
+      },
+      {
+         "remarkSerial":41,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-SC130"
+      },
+      {
+         "remarkSerial":42,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-EC130"
+      },
+      {
+         "remarkSerial":43,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-ADT AED0 CHANGE FEE"
+      },
+      {
+         "remarkSerial":44,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-ADT AED0 CHANGE FEE"
+      },
+      {
+         "remarkSerial":45,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-ADT AED0 CHANGE FEE"
+      },
+      {
+         "remarkSerial":46,
+         "sectionLabel":"A14",
+         "freeformRemark":"FT-ADT AED0 CHANGE FEE"
+      },
+      {
+         "remarkSerial":47,
+         "sectionLabel":"A14",
+         "freeformRemark":"VL-112919APRMUCRM1AOJQSKD"
+      }
+   ],
+   "refunds":null
+}

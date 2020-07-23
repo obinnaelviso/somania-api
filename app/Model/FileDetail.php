@@ -9,7 +9,7 @@ class FileDetail extends Model
     protected $guarded = [];
 
     public function headers() {
-        return $this->hasMany(Header::class);
+        return $this->hasOne(Header::class);
     }
 
     public function passengersData() {

@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/soft', 'MirDataController@test');
+Route::get('/soft', 'MirDataController@parseJson');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

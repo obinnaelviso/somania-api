@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class TicketRemark extends Model
 {
-    //
+    protected $guarded = [];
 }
